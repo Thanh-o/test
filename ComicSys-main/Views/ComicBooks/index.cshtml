@@ -1,0 +1,26 @@
+@model IEnumerable<ComicSys.Models.ComicBook>
+
+<h2>Comic Books</h2>
+<a asp-controller="Customers" asp-action="Create">Register as a New Customer</a> <br>
+<a asp-action="Create">Add New Comic Book</a>
+<table>
+    <tr>
+        <th>Title</th> &nbsp;
+        <th>Author</th>&nbsp;
+        <th>Price Per Day</th>&nbsp;
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Title</td>
+            <td>@item.Author</td>
+            <td>@item.PricePerDay</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ComicBookID">Details</a> |
+                <a asp-action="Edit" asp-route-id="@item.ComicBookID">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.ComicBookID">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
