@@ -1,0 +1,46 @@
+@model IEnumerable<ComicSys.Models.Rental>
+
+@{
+    ViewData["Title"] = "Rentals Index";
+}
+
+<h1>Rentals</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Create New Rental</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Rental Date</th>
+            <th>Return Date</th>
+            <th>Comic Books</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rental in Model)
+        {
+            <tr>
+                <td>@rental.Customer.FullName</td>
+                <td>@rental.RentalDate.ToString("yyyy-MM-dd")</td>
+                <td>@rental.ReturnDate?.ToString("yyyy-MM-dd")</td>
+                <td>
+                    @foreach (var detail in rental.RentalDetails)
+                    {
+                        <span>@detail.ComicBook.Title (@detail.Quantity x @detail.PricePerDay.ToString("C2"))</span>
+
+                        <br />
+                    }
+                </td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = rental.RentalID })" class="btn btn-info">Details</a>
+                    <a href="@Url.Action("Edit", new { id = rental.RentalID })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = rental.RentalID })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

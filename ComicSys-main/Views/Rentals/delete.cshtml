@@ -1,0 +1,45 @@
+@model ComicSys.Models.Rental
+
+@{
+    ViewData["Title"] = "Delete Rental";
+}
+
+<h1>Delete Rental</h1>
+
+<p>Are you sure you want to delete this rental?</p>
+
+<div>
+    <strong>Customer:</strong> @Model.Customer.FullName
+</div>
+<div>
+    <strong>Rental Date:</strong> @Model.RentalDate.ToString("yyyy-MM-dd")
+</div>
+<div>
+    <strong>Return Date:</strong> @Model.ReturnDate?.ToString("yyyy-MM-dd")
+</div>
+
+<h3>Comic Books Rented</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Quantity</th>
+            <th>Price per Day</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detail in Model.RentalDetails)
+        {
+            <tr>
+                <td>@detail.ComicBook.Title</td>
+                <td>@detail.Quantity</td>
+                <td>@detail.PricePerDay.ToString("C2")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form method="post" asp-action="Delete" asp-route-id="@Model.RentalID">
+    <button type="submit" class="btn btn-danger">Delete Rental</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+</form>

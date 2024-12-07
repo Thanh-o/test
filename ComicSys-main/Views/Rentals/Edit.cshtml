@@ -1,0 +1,48 @@
+@model ComicSys.Models.Rental
+
+@{
+    ViewData["Title"] = "Edit Rental";
+}
+
+<h1>Edit Rental</h1>
+
+<form method="post" asp-action="Edit" asp-route-id="@Model.RentalID">
+    <div class="form-group">
+        <label for="CustomerId">Customer</label>
+        <select name="CustomerId" class="form-control" required>
+            @foreach (var customer in ViewBag.Customers)
+            {
+                @customer.FullName
+
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="RentalDate">Rental Date</label>
+        <input type="date" name="RentalDate" class="form-control" value="@Model.RentalDate.ToString("yyyy-MM-dd")"
+            required />
+    </div>
+
+    <div class="form-group">
+        <label for="ReturnDate">Return Date</label>
+        <input type="date" name="ReturnDate" class="form-control" value="@Model.ReturnDate?.ToString("yyyy-MM-dd")" />
+    </div>
+
+    <h3>Comic Books Rented</h3>
+    <div id="comicBooks">
+        @foreach (var detail in Model.RentalDetails)
+        {
+            <div class="form-group">
+                <label>@detail.ComicBook.Title</label>
+                <input type="number" name="rentalDetails[@detail.ComicBookID].Quantity" value="@detail.Quantity"
+                    class="form-control" min="1" required />
+                <input type="number" name="rentalDetails[@detail.ComicBookID].PricePerDay" value="@detail.PricePerDay"
+                    class="form-control" step="0.01" required />
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+</form>

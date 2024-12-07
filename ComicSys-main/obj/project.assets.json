@@ -2152,25 +2152,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nguyen\\.nuget\\packages\\": {}
+    "C:\\Users\\Nguyen Trung Thanh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nguyen\\ComicSys-main\\ComicSys.csproj",
+      "projectUniqueName": "C:\\Boss\\GitHub\\test\\ComicSys-main\\ComicSys.csproj",
       "projectName": "ComicSys",
-      "projectPath": "C:\\Users\\Nguyen\\ComicSys-main\\ComicSys.csproj",
-      "packagesPath": "C:\\Users\\Nguyen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nguyen\\ComicSys-main\\obj\\",
+      "projectPath": "C:\\Boss\\GitHub\\test\\ComicSys-main\\ComicSys.csproj",
+      "packagesPath": "C:\\Users\\Nguyen Trung Thanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Boss\\GitHub\\test\\ComicSys-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Nguyen Trung Thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net8.0": {
@@ -2227,7 +2231,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

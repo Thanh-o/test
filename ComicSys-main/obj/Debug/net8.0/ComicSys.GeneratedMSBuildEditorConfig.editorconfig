@@ -9,63 +9,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ComicSys
 build_property.RootNamespace = ComicSys
-build_property.ProjectDir = C:\Users\Nguyen\ComicSys-main\
+build_property.ProjectDir = C:\Boss\GitHub\test\ComicSys-main\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Nguyen\ComicSys-main
+build_property.MSBuildProjectDirectory = C:\Boss\GitHub\test\ComicSys-main
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/ComicBooks/create.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/ComicBooks/create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWNCb29rc1xjcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/ComicBooks/delete.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/ComicBooks/delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWNCb29rc1xkZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/ComicBooks/Details.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/ComicBooks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWNCb29rc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/ComicBooks/Edit.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/ComicBooks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWNCb29rc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/ComicBooks/index.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/ComicBooks/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29taWNCb29rc1xpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/Customers/Create.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/Home/Index.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/Home/Privacy.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/Shared/Error.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/Rentals/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Boss/GitHub/test/ComicSys-main/Views/Rentals/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Boss/GitHub/test/ComicSys-main/Views/Rentals/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Boss/GitHub/test/ComicSys-main/Views/Rentals/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Boss/GitHub/test/ComicSys-main/Views/Rentals/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVudGFsc1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Boss/GitHub/test/ComicSys-main/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/_ViewImports.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/_ViewStart.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nguyen/ComicSys-main/Views/Shared/_Layout.cshtml]
+[C:/Boss/GitHub/test/ComicSys-main/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7i7nzus3p7
